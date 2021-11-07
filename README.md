@@ -1,7 +1,10 @@
 # DisableLibVLC
 
 A [NeosModLoader](https://github.com/zkxs/NeosModLoader) mod for [Neos VR](https://neos.com/) that disablex libVLC to avoid freezes/crashes caused by it.
+
 Keep in mind all formats not supportet by UnityNativ Player will no longer work at all!
+
+This is a fork of [NeosVideoPlayerFix](https://github.com/Frozenreflex/NeosVideoPlayerFix)
 
 ## Installation
 1. Install [NeosModLoader](https://github.com/zkxs/NeosModLoader).
