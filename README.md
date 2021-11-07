@@ -1,6 +1,9 @@
-# VideoPlayerFix
+# DisableLibVLC
 
-A [NeosModLoader](https://github.com/zkxs/NeosModLoader) mod for [Neos VR](https://neos.com/) that fixes a crash in Proton by forcing libVLC on all video players. This can be run on Windows to force libVLC if desired, but was designed specifically to mitigate that crash.
+A [NeosModLoader](https://github.com/zkxs/NeosModLoader) mod for [Neos VR](https://neos.com/) that disablex libVLC to avoid freezes/crashes caused by it.
+Keep in mind all formats not supportet by UnityNativ Player will no longer work at all!
 
-## Building
-This project is made to be built on Linux using Visual Studio Code. You will have to get the targetting pack for .Net Framework (or Mono, I don't remember how I got it to work), and manually change the references to your own.
+## Installation
+1. Install [NeosModLoader](https://github.com/zkxs/NeosModLoader).
+1. Place [DisableLibVLC.dll](https://github.com/eia485/NeosBetterLogixWires/releases/latest/download/DisableLibVLC.dll) into your `nml_mods` folder. This folder should be at `C:\Program Files (x86)\Steam\steamapps\common\NeosVR\nml_mods` for a default install. You can create it if it's missing, or if you launch the game once with NeosModLoader installed it will create the folder for you.
+1. Start the game. If you want to verify that the mod is working you can check your Neos logs.
