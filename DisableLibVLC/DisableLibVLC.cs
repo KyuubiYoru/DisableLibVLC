@@ -33,7 +33,7 @@ namespace DisableLibVLC
             public static void GetPlaybackEnginePatch(ref string mime)
             {
                 mime = null;
-                UniLog.Log("Forced Unity Nativ in a video player");
+                UniLog.Log("Forced Unity Native in a video player");
             }
         }
     }
